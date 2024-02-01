@@ -1,0 +1,15 @@
+/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/bin/Debug/net6.0/Assignment1(current)
+/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/bin/Debug/net6.0/Assignment1(current).deps.json
+/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/bin/Debug/net6.0/Assignment1(current).runtimeconfig.json
+/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/bin/Debug/net6.0/Assignment1(current).dll
+/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/bin/Debug/net6.0/Assignment1(current).pdb
+/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/obj/Debug/net6.0/Assignment1(current).csproj.AssemblyReference.cache
+/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/obj/Debug/net6.0/Assignment1(current).GeneratedMSBuildEditorConfig.editorconfig
+/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/obj/Debug/net6.0/Assignment1(current).AssemblyInfoInputs.cache
+/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/obj/Debug/net6.0/Assignment1(current).AssemblyInfo.cs
+/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/obj/Debug/net6.0/Assignment1(current).csproj.CoreCompileInputs.cache
+/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/obj/Debug/net6.0/Assignment1(current).dll
+/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/obj/Debug/net6.0/refint/Assignment1(current).dll
+/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/obj/Debug/net6.0/Assignment1(current).pdb
+/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/obj/Debug/net6.0/Assignment1(current).genruntimeconfig.cache
+/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/obj/Debug/net6.0/ref/Assignment1(current).dll
