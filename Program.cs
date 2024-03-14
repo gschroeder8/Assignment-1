@@ -26,7 +26,10 @@ if (addQuestion == "Y")
     Console.WriteLine("Enter Watching:");
     string? watching = Console.ReadLine();
 
-    string csvOutput = $"\n{ticketId},{summary},{status},{priority},{submitter},{assigned},{watching}";
+    //creating a new ticket object
+    Ticket newTicket = new Ticket(ticketId, summary, status, priority, submitter, assigned, watching);
+    //converting the ticket object to a string
+    string csvOutput = newTicket.ToString();
 
     //appending the newly added data to the CSV file
     //https://www.tutorialspoint.com/chash-program-to-append-text-to-an-existing-file
@@ -37,7 +40,7 @@ if (addQuestion == "Y")
 
     Console.WriteLine("Data added to the .txt file.");
 }
-else
+    else 
 {
     Console.WriteLine("Application ended.");
 }
