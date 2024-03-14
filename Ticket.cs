@@ -18,4 +18,9 @@ class Ticket
         Assigned = assigned;
         Watching = watching;
     }
+
+    public override string ToString()
+    {
+        return $"Ticket ID: {TicketId}\nSummary: {Summary}\nStatus: {Status}\nPriority: {Priority}\nSubmitter: {Submitter}\nAssigned: {Assigned}\nWatching: {Watching}";
+    }
 }
