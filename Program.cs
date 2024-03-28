@@ -1,46 +1,86 @@
-﻿string file = "Tickets.txt";
-
-Console.WriteLine("Do you want to enter a ticket? (Y/N)");
-string addQuestion = Console.ReadLine().ToUpper();
-
-if (addQuestion == "Y")
+﻿class Program
 {
-    Console.WriteLine("Enter Ticket ID:");
-    string? ticketId = Console.ReadLine();
-
-    Console.WriteLine("Enter Summary:");
-    string? summary = Console.ReadLine();
-
-    Console.WriteLine("Enter Status:");
-    string? status = Console.ReadLine();
-
-    Console.WriteLine("Enter Priority:");
-    string? priority = Console.ReadLine();
-
-    Console.WriteLine("Enter Submitter:");
-    string? submitter = Console.ReadLine();
-
-    Console.WriteLine("Enter Assigned:");
-    string? assigned = Console.ReadLine();
-
-    Console.WriteLine("Enter Watching:");
-    string? watching = Console.ReadLine();
-
-    //creating a new ticket object
-    Ticket newTicket = new Ticket(ticketId, summary, status, priority, submitter, assigned, watching);
-    //converting the ticket object to a string
-    string csvOutput = newTicket.ToString();
-
-    //appending the newly added data to the CSV file
-    //https://www.tutorialspoint.com/chash-program-to-append-text-to-an-existing-file
-    using (StreamWriter sw = File.AppendText(file))
+    static void Main()
     {
-        sw.WriteLine(csvOutput);
+    int ticketTypeChoice;
+    Console.WriteLine("Select Ticket Type:");
+    Console.WriteLine("1. Bug");
+    Console.WriteLine("2. Enhancement");
+    Console.WriteLine("3. Task");
+    Console.Write("Enter your choice (1-3): ");
+    
+    if (!int.TryParse(Console.ReadLine(), out ticketTypeChoice) || ticketTypeChoice < 1 || ticketTypeChoice > 3)
+    {
+        Console.WriteLine("Invalid choice. Application ended.");
+        return;
     }
 
-    Console.WriteLine("Data added to the .txt file.");
-}
-    else 
-{
-    Console.WriteLine("Application ended.");
+    string file;
+    switch (ticketTypeChoice)
+    {
+        case 1:
+            file = "Bugs.csv";
+            break;
+        case 2:
+            file = "Enhancements.csv";
+            break;
+        case 3:
+            file = "Tasks.csv";
+            break;
+        default:
+            Console.WriteLine("Invalid choice. Application ended.");
+            return;
+    }
+
+        Console.WriteLine("Do you want to enter a ticket? (Y/N)");
+        string addQuestion = Console.ReadLine().ToUpper();
+
+        if (addQuestion == "Y")
+        {
+            Console.WriteLine("Enter Ticket ID:");
+            string? ticketId = Console.ReadLine();
+
+            Console.WriteLine("Enter Summary:");
+            string? summary = Console.ReadLine();
+
+            Console.WriteLine("Enter Status:");
+            string? status = Console.ReadLine();
+
+            Console.WriteLine("Enter Priority:");
+            string? priority = Console.ReadLine();
+
+            Console.WriteLine("Enter Submitter:");
+            string? submitter = Console.ReadLine();
+
+            Console.WriteLine("Enter Assigned:");
+            string? assigned = Console.ReadLine();
+
+            Console.WriteLine("Enter Watching:");
+            string? watching = Console.ReadLine();
+
+    switch (ticketTypeChoice)
+        {
+            case 1: // Bug
+                //TODO: bug ticket
+                break;
+            case 2: // Enhancement
+                //TODO: enhancement ticket
+                break;
+            case 3: // Task
+                //TODO: task ticket
+                break;
+        }
+
+        using (StreamWriter sw = File.AppendText(file))
+        {
+            sw.WriteLine();
+        }
+
+        Console.WriteLine("Data added to the CSV file.");
+    }
+    else
+    {
+        Console.WriteLine("Application ended.");
+    }
+    }
 }
