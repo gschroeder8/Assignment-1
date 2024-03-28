@@ -8,24 +8,32 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/gavinschroeder/.nuget/packages/": {}
+    "C:\\Users\\spade\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/Assignment1(current).csproj",
+      "projectUniqueName": "C:\\Users\\spade\\OneDrive\\Desktop\\Midterm Project DBC#\\Ticketing-System\\Assignment1(current).csproj",
       "projectName": "Assignment1(current)",
-      "projectPath": "/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/Assignment1(current).csproj",
-      "packagesPath": "/Users/gavinschroeder/.nuget/packages/",
-      "outputPath": "/Users/gavinschroeder/Downloads/WCTC/Schroeder.Net/Week 1/Assignment1(current)/obj/",
+      "projectPath": "C:\\Users\\spade\\OneDrive\\Desktop\\Midterm Project DBC#\\Ticketing-System\\Assignment1(current).csproj",
+      "packagesPath": "C:\\Users\\spade\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\spade\\OneDrive\\Desktop\\Midterm Project DBC#\\Ticketing-System\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/gavinschroeder/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\spade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
