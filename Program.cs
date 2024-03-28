@@ -33,7 +33,7 @@
         }
 
         Console.WriteLine("Do you want to enter a ticket? (Y/N)");
-        string addQuestion = Console.ReadLine().ToUpper();
+        string? addQuestion = Console.ReadLine().ToUpper();
 
         if (addQuestion == "Y")
         {
@@ -65,27 +65,27 @@
             {
                 case 1: // Bug
                     Console.WriteLine("Enter Severity:");
-                    string severity = Console.ReadLine();
+                    string? severity = Console.ReadLine();
                     newTicket = new BugTicket(ticketId, summary, status, priority, submitter, assigned, watching, severity);
                     csvOutput = newTicket.ToString();
                     break;
                 case 2: // Enhancement
                     Console.WriteLine("Enter Software:");
-                    string software = Console.ReadLine();
+                    string? software = Console.ReadLine();
                     Console.WriteLine("Enter Cost:");
-                    string cost = Console.ReadLine();
+                    string? cost = Console.ReadLine();
                     Console.WriteLine("Enter Reason:");
-                    string reason = Console.ReadLine();
+                    string? reason = Console.ReadLine();
                     Console.WriteLine("Enter Estimate:");
-                    string estimate = Console.ReadLine();
+                    string? estimate = Console.ReadLine();
                     newTicket = new EnhancementTicket(ticketId, summary, status, priority, submitter, assigned, watching, software, cost, reason, estimate);
                     csvOutput = newTicket.ToString();
                     break;
                 case 3: // Task
                     Console.WriteLine("Enter Project Name:");
-                    string projectName = Console.ReadLine();
+                    string? projectName = Console.ReadLine();
                     Console.WriteLine("Enter Due Date:");
-                    string dueDate = Console.ReadLine();
+                    string? dueDate = Console.ReadLine();
                     newTicket = new TaskTicket(ticketId, summary, status, priority, submitter, assigned, watching, projectName, dueDate);
                     csvOutput = newTicket.ToString();
                     break;
