@@ -7,7 +7,7 @@ class Ticket
     public string Submitter { get; set; }
     public string Assigned { get; set; }
     public string Watching { get; set; }
-    
+
     public Ticket(string ticketId, string summary, string status, string priority, string submitter, string assigned, string watching)
     {
         TicketId = ticketId;
@@ -21,6 +21,6 @@ class Ticket
 
     public override string ToString()
     {
-        return $"Ticket ID: {TicketId}\nSummary: {Summary}\nStatus: {Status}\nPriority: {Priority}\nSubmitter: {Submitter}\nAssigned: {Assigned}\nWatching: {Watching}";
+        return $"{TicketId},{Summary},{Status},{Priority},{Submitter},{Assigned},{Watching}";
     }
 }
