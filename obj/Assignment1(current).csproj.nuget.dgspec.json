@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\spade\\OneDrive\\Desktop\\Midterm Project DBC#\\Ticketing-System\\Assignment1(current).csproj": {}
+    "C:\\Users\\spade\\OneDrive\\Desktop\\Ticketing System Search\\Ticketing-System\\Assignment1(current).csproj": {}
   },
   "projects": {
-    "C:\\Users\\spade\\OneDrive\\Desktop\\Midterm Project DBC#\\Ticketing-System\\Assignment1(current).csproj": {
+    "C:\\Users\\spade\\OneDrive\\Desktop\\Ticketing System Search\\Ticketing-System\\Assignment1(current).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\spade\\OneDrive\\Desktop\\Midterm Project DBC#\\Ticketing-System\\Assignment1(current).csproj",
+        "projectUniqueName": "C:\\Users\\spade\\OneDrive\\Desktop\\Ticketing System Search\\Ticketing-System\\Assignment1(current).csproj",
         "projectName": "Assignment1(current)",
-        "projectPath": "C:\\Users\\spade\\OneDrive\\Desktop\\Midterm Project DBC#\\Ticketing-System\\Assignment1(current).csproj",
+        "projectPath": "C:\\Users\\spade\\OneDrive\\Desktop\\Ticketing System Search\\Ticketing-System\\Assignment1(current).csproj",
         "packagesPath": "C:\\Users\\spade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\spade\\OneDrive\\Desktop\\Midterm Project DBC#\\Ticketing-System\\obj\\",
+        "outputPath": "C:\\Users\\spade\\OneDrive\\Desktop\\Ticketing System Search\\Ticketing-System\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

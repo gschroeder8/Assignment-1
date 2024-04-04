@@ -27,3 +27,17 @@ C:\Users\spade\OneDrive\Desktop\Midterm Project DBC#\Ticketing-System\obj\Debug\
 C:\Users\spade\OneDrive\Desktop\Midterm Project DBC#\Ticketing-System\obj\Debug\net6.0\Assignment1(current).pdb
 C:\Users\spade\OneDrive\Desktop\Midterm Project DBC#\Ticketing-System\obj\Debug\net6.0\Assignment1(current).genruntimeconfig.cache
 C:\Users\spade\OneDrive\Desktop\Midterm Project DBC#\Ticketing-System\obj\Debug\net6.0\ref\Assignment1(current).dll
+C:\Users\spade\OneDrive\Desktop\Ticketing System Search\Ticketing-System\bin\Debug\net6.0\Assignment1(current).exe
+C:\Users\spade\OneDrive\Desktop\Ticketing System Search\Ticketing-System\bin\Debug\net6.0\Assignment1(current).deps.json
+C:\Users\spade\OneDrive\Desktop\Ticketing System Search\Ticketing-System\bin\Debug\net6.0\Assignment1(current).runtimeconfig.json
+C:\Users\spade\OneDrive\Desktop\Ticketing System Search\Ticketing-System\bin\Debug\net6.0\Assignment1(current).dll
+C:\Users\spade\OneDrive\Desktop\Ticketing System Search\Ticketing-System\bin\Debug\net6.0\Assignment1(current).pdb
+C:\Users\spade\OneDrive\Desktop\Ticketing System Search\Ticketing-System\obj\Debug\net6.0\Assignment1(current).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spade\OneDrive\Desktop\Ticketing System Search\Ticketing-System\obj\Debug\net6.0\Assignment1(current).AssemblyInfoInputs.cache
+C:\Users\spade\OneDrive\Desktop\Ticketing System Search\Ticketing-System\obj\Debug\net6.0\Assignment1(current).AssemblyInfo.cs
+C:\Users\spade\OneDrive\Desktop\Ticketing System Search\Ticketing-System\obj\Debug\net6.0\Assignment1(current).csproj.CoreCompileInputs.cache
+C:\Users\spade\OneDrive\Desktop\Ticketing System Search\Ticketing-System\obj\Debug\net6.0\Assignment1(current).dll
+C:\Users\spade\OneDrive\Desktop\Ticketing System Search\Ticketing-System\obj\Debug\net6.0\refint\Assignment1(current).dll
+C:\Users\spade\OneDrive\Desktop\Ticketing System Search\Ticketing-System\obj\Debug\net6.0\Assignment1(current).pdb
+C:\Users\spade\OneDrive\Desktop\Ticketing System Search\Ticketing-System\obj\Debug\net6.0\Assignment1(current).genruntimeconfig.cache
+C:\Users\spade\OneDrive\Desktop\Ticketing System Search\Ticketing-System\obj\Debug\net6.0\ref\Assignment1(current).dll
